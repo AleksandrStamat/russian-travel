@@ -1,0 +1,15 @@
+.cover__link {
+  max-width: 1184px;
+  width: 100%;
+  min-height: 740px;
+  height: 100%;
+  margin: 0 auto;
+  /* border: 1px red solid; */
+  text-decoration: none;
+  background: rgba(42, 44, 47, .3);
+  transition: background 0.5s ease;
+  z-index: 2;
+}
+.cover__link:hover {
+  background: rgba(42, 44, 47, .8);
+}

@@ -3,6 +3,7 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 .cover {
+  padding-top: 12px;
   margin: 0 auto;
   position: relative;
   max-width: 1184px;
@@ -12,18 +13,20 @@
 @media screen and (max-width:1024px) {
   .cover{
     max-width: 1024px;
-    max-height: 640px; 
+    min-height: 640px;
   }
 }
 @media screen and (max-width:768px) {
   .cover{
+    padding-top: 88px;
     max-width: 768px;
-    max-height: 480px; 
+    min-height: 480px;
   }
 }
 @media screen and (max-width:320px) {
   .cover{
+    padding-top: 64px;
     max-width: 320px;
-    max-height: 200px; 
+    min-height: 200px;
   }
 }

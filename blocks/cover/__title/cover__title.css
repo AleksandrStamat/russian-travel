@@ -11,9 +11,19 @@
   z-index: 2; 
   object-position: center;
 }
+@media screen and (max-width:1024px) {
+  .cover__title{
+    margin: 195px auto 32px;
+  }
+}
+@media screen and (max-width:768px) {
+  .cover__title{
+    margin: 115px auto 32px;
+  }
+}
 @media screen and (max-width:320px) {
   .cover__title{
-    margin-bottom: 12px;
+    margin:35px auto 16px;
     font-size: 32px;
     line-height: 35px;
     max-width: 288px;

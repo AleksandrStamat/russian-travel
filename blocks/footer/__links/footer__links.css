@@ -4,5 +4,12 @@
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
-
 }
+
+@media screen and (max-width:320px){
+  .footer__links {
+    margin-left: 16px;
+    display: grid;
+    grid-gap: 32px;
+  }
+} 

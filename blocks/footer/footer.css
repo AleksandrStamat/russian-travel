@@ -2,11 +2,22 @@
 @import url(./__link/footer__link.css);
 @import url(./__links/footer__links.css);
 .footer {
-  margin: 0 auto;
-  width: 100%;
+  margin: auto;
+  padding-top: 92px;
   max-width: 1184px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 
+}
+@media screen and (max-width: 1024px) and (min-width: 768px){
+  .footer {
+    max-width: 928px;
+
+  }
+}
+@media screen and (max-width:320px){
+  .footer {
+    flex-direction: column;
+    height: 310px;
+  }
 }

@@ -6,3 +6,10 @@
   text-align: right;
   color: #FFFFFF;
 }
+@media screen and (max-width:320px){
+  .footer__copyright {
+    line-height: 14px;
+    min-width: 186px;
+    padding-right: 118px;
+  }
+}

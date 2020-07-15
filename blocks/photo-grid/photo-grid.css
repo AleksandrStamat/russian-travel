@@ -4,11 +4,30 @@
   max-width: 1184px;
   width: 100%;
   max-height: 671px;
-  height: 100%;
-  margin: 0 auto;
   display: grid;
   justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4,1fr);
   grid-gap: 16px;
   padding: 92px 0 92px 0;
+}
+@media screen and (max-width:1024px) {
+  .photo-grid {
+    max-width: 928px;
+    max-height: 942px;
+    grid-template-columns: repeat(3, calc((100% - 14px) / 3));
+    grid-gap: 14px
+}
+@media screen and (max-width:768px) {
+  .photo-grid {
+    max-width: 720px;
+    max-height: 1664px;
+    grid-template-columns: repeat(2, calc((100% - 16px) / 2));
+    grid-gap: 16px
+}
+@media screen and (max-width:320px) {
+  .photo-grid {
+    max-width: 288px;
+    max-height: 2724px;
+    grid-template-columns: 1fr;
+    grid-gap: 12px
 }

@@ -5,14 +5,37 @@
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__website/place__website.css);
 .place {
+  margin: 0 auto;
   max-width: 984px;
   width: 100%;
-  max-height: 660px;
-  height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: min-content min-content;
+  grid-template-rows: min-content;
   grid-column-gap: 40px;
   grid-row-gap: 48px;
-  margin-bottom: 80px;
+} 
+.place + .place {
+  padding-bottom: 0px;
+}
+@media screen and (max-width:1024px) {
+  .place {
+    max-width: 928px;
+    max-height: fit-content;
+
+  }
+}
+@media screen and (max-width:768px) {
+  .place {
+    max-width: 720px;
+    max-height: fit-content;
+  }
+}
+@media screen and (max-width:320px) {
+  .place {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+    max-height: fit-content;
+    grid-row-gap: 32px;
+
+  }
 }

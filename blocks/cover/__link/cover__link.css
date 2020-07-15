@@ -1,10 +1,8 @@
 .cover__link {
   max-width: 1184px;
   width: 100%;
-  min-height: 740px;
   height: 100%;
-  margin: 0 auto;
-  /* border: 1px red solid; */
+  min-height: 740px;
   text-decoration: none;
   background: rgba(42, 44, 47, .3);
   transition: background 0.5s ease;
@@ -13,3 +11,24 @@
 .cover__link:hover {
   background: rgba(42, 44, 47, .8);
 }
+/* @media screen and (max-width:1024px) {
+  .cover__link{
+    max-width: 1024px;
+    height: auto;
+
+  }
+}
+@media screen and (max-width:768px) {
+  .cover__link{
+    max-width: 768px;
+    height: auto;
+ 
+  }
+}
+@media screen and (max-width:320px) {
+  .cover__link{
+    max-width: 320px;
+    height: auto;
+
+  }
+} */

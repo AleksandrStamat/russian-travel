@@ -1,3 +1,15 @@
 .place__website {
+  max-width: 456px;
+  width: 100%;
   align-self: end;
+}
+@media screen and (max-width:768px) {
+  .place__website {
+    max-width: 352px;
+  }
+}
+@media screen and (max-width:320px) {
+  .place__website {
+    display: none;
+  }
 }

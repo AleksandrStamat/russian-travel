@@ -9,15 +9,16 @@
   justify-content: space-between;
 
 }
-@media screen and (max-width: 1024px) and (min-width: 768px){
+@media screen and (max-width: 1023px) and (min-width: 768px){
   .footer {
+    padding-top: 88px;
     max-width: 928px;
 
   }
 }
 @media screen and (max-width:320px){
   .footer {
+    padding-top: 64px;
     flex-direction: column;
-    height: 310px;
   }
 }

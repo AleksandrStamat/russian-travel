@@ -1,6 +1,8 @@
 @import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/__lang-link_target/header__lang-link_target.css);
 @import url(./__lang-links/header__lang-links.css);
 @import url(./__logo/header__logo.css);
+
 .header {
   margin: 0 auto;
   max-width: 1184px;
@@ -11,13 +13,11 @@
 @media screen and (min-width:1024px max-width:1280px){
   .header {
     max-width: 928px;
-    width: 100%;
 }
 
 @media screen and (min-width:768px max-width:1024px){
   .header {
     max-width: 720px;
-    width: 100%;
   }
 }
 @media screen and (min-width:320px max-width:768px){

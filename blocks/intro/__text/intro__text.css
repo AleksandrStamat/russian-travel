@@ -2,7 +2,6 @@
   margin: 0 auto 32px;
   max-width: 690px;
   width: 100%;
-  height: 208px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -10,9 +9,7 @@
 }
 @media screen and (max-width:320px) {
   .intro__text {
-    margin: 0 auto 32px;
     max-width: 288px;
     width: 100%;
-    height: 520px;
   }
 }

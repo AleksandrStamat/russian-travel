@@ -20,14 +20,16 @@
 @media screen and (max-width:1024px) {
   .place {
     max-width: 928px;
-    max-height: fit-content;
+    grid-column-gap: 32px;
+
 
   }
 }
 @media screen and (max-width:768px) {
   .place {
     max-width: 720px;
-    max-height: fit-content;
+    grid-column-gap: 28px;
+
   }
 }
 @media screen and (max-width:320px) {

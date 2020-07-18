@@ -5,7 +5,7 @@
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__website/place__website.css);
 .place {
-  /* margin: 0 auto; */
+  padding-bottom: 80px;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -13,7 +13,7 @@
   grid-column-gap: 40px;
   grid-row-gap: 48px;
 } 
-.place + .place {
+.place:last-child{
   padding-bottom: 0px;
 }
 @media screen and (min-width:1024px) and (max-width:1280px){
@@ -24,9 +24,16 @@
 }
 @media screen and (max-width:768px) {
   .place {
+    padding-bottom: 72px;
     grid-template-columns: 1fr;
     max-width: 720px;
     grid-column-gap: 28px;
     grid-row-gap: 32px;
+  }
+}
+@media screen and (max-width:320px) {
+  .place {
+    padding-bottom: 48px;
+
   }
 }

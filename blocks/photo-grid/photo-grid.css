@@ -11,18 +11,21 @@
 }
 @media screen and (max-width:1024px) {
   .photo-grid {
+    max-width: 928px;
     grid-template-columns: repeat(3, calc((100% - 28px) / 3));
     grid-gap: 14px
 }
 }
 @media screen and (max-width:768px) {
   .photo-grid {
+    max-width: 720px;
     grid-template-columns: repeat(2, calc((100% - 16px) / 2));
     grid-gap: 16px
 }
 }
 @media screen and (max-width:320px) {
   .photo-grid {
+    max-width: 288px;
     grid-template-columns: 1fr;
     grid-gap: 12px
 }

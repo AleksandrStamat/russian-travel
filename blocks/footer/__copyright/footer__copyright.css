@@ -1,5 +1,6 @@
 .footer__copyright {
   margin: 0;
+  padding: 0;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -8,7 +9,7 @@
   color: #FFFFFF;
   display: flex;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
   .footer__copyright {
     padding-top: 48px;
     line-height: 14px;

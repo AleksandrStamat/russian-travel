@@ -3,7 +3,7 @@
   width: 100%;
   align-self: end;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .place__website {
     display: none;
   }

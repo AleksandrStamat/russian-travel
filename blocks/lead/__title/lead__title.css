@@ -1,5 +1,5 @@
 .lead__title {
-  margin: 56px auto 32px;
+  margin: 48px auto 32px;
   max-width: 720px;
   width: 100%;
   font-style: normal;
@@ -8,21 +8,22 @@
   line-height: 100px;
   text-align: center;
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1280px){
   .lead__title {
-    margin: 48px auto 16px;
+    margin-top: 48px;
   }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:675px){
   .lead__title {
+    margin-bottom: 16px;
+    font-size: 50px;
+    line-height: 54px;
   }
-}
-    
-@media screen and (max-width:320px) {
+} 
+@media screen and (max-width:450px){
   .lead__title {
-    margin: 48px auto 16px;
     max-width: 288px;
     font-size: 40px;
     line-height: 44px;
   }
-}
+} 

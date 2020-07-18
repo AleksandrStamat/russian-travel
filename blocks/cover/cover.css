@@ -13,24 +13,20 @@
   align-items: center;
   position: relative;
   max-width: 1184px;
-  min-height: 740px;
   width: 100%;
 }
-@media screen and (max-width:1024px) {
+@media screen and (min-width:768px) and (max-width:1024px) {
   .cover{
-    max-width: 1024px;
     min-height: 640px;
   }
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width:450px) and (max-width:768px) {
   .cover{
-    max-width: 768px;
     min-height: 480px;
   }
 }
-@media screen and (max-width:320px) {
+@media screen and (min-width:320px) and (max-width:450px) {
   .cover{
-    max-width: 320px;
     min-height: 200px;
   }
 }

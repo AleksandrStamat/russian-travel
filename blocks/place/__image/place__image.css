@@ -1,5 +1,5 @@
 .place__image {
-  width: 100%;
-  object-fit: contain;
-  object-position: center;
+  max-width: 100%;
+  grid-area: image;
+  justify-self: center;
 }
